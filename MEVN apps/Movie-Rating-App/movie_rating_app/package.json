@@ -20,13 +20,14 @@
     "bootstrap-vue": "^2.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "material-design-icons-iconfont": "^6.1.0",
     "mongoose": "^5.10.15",
     "morgan": "^1.10.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vue-star-rating": "^1.7.0",
     "vue-swal": "^1.0.0",
-    "vuetify": "^2.0.0"
+    "vuetify": "^2.3.18"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

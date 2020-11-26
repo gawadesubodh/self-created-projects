@@ -10,7 +10,7 @@
                </div>
             </v-card-title>
             <h6 class="card-title" @click="rate">Rate this movie</h6>
-            <h6 class="card-title" v-if="current_user">Rate this movie</h6>
+            <h6 class="card-title" >Rate this movie</h6>
             <v-card-text>
                {{ movie.description }} 
             </v-card-text>
@@ -95,6 +95,7 @@ export default {
 				})
 				.then((response) => {
 					this.movie = response.data;
+					this.current_user = response.data.current_user;
 				})
 				.catch(() => {});
 		},

@@ -6,6 +6,10 @@
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import 'vuetify/dist/vuetify.min.css';
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+
+
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueSwal from 'vue-swal';
